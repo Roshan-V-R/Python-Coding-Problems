@@ -8,3 +8,12 @@ def max_sub_array_of_size_k(k,nums):
         max_sum = max(max_sum,window_sum)
     return max_sum
 print(max_sub_array_of_size_k(3,[2, 1, 5, 1, 3, 2]))
+
+
+orders = [
+    {"id": 1, "amount": 500},
+    {"id": 2, "amount": 1500},
+    {"id": 3, "amount": 900},
+]
+nl = [order["id"] for order in orders if order["amount"] > 500]
+print(nl)
