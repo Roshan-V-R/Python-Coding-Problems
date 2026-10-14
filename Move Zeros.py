@@ -20,7 +20,6 @@ for i in nums:
     if i != 0:
         nums[w] = i
         w+=1
-print(nums)
 for i in range(w,len(nums)):
     nums[i] = 0
     w+=1
